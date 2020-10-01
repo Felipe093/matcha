@@ -1,0 +1,47 @@
+
+      body {
+          background-color: #fffbf7;
+      }
+      
+      
+      h1 {
+
+            color: green;
+            text-align: center;
+            font-size: 60px;
+            margin-bottom: center;
+            
+        }
+
+        h4 {
+
+            text-align: center;
+            font-size: 20px;
+        }
+
+        form {
+            text-align: center;
+        }
+        
+        p{
+            text-align: center;
+            color: #8b8b8bcc;
+            margin-top: 15px;
+        }
+            
+       input {
+           border-radius: 10px;
+           padding: 10px;
+           border: solid #8b8b8bcc;
+           height: 30px;
+
+         
+       }
+
+   button {
+         margin: -5px;
+         border-radius: 10px;
+         padding: 10px;
+         background: green;
+   }    
+ 
