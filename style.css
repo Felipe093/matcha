@@ -76,7 +76,6 @@
    }    
  
    .banner {
-
     
     margin-top: 32px;
     margin: 0 0 1rem;
@@ -93,7 +92,16 @@
     height: 45px;
     font-family: sans-serif;
 
-   }
+    }
+
+    .fixed{
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      background-color: #fffbf7;
+
+    }
     .header > *{
         display: inline-block;
         font-size: 16px;
@@ -101,9 +109,21 @@
         height: 100%;
         line-height: 45px;
     
-
-  }
+    }
   
+   .section {
+
+    margin-top: 150px;
+   } 
+
+
+
+  figure.intro > img {
+    width:80%;
+
+    
+  }
+
   .navbar {
     width: 70%;
     text-align: center;
@@ -111,11 +131,19 @@
     font-weight: 500;
 
   }
+
+
   
   .menu-item {
     display: inline;
     margin-right: 25px;
     margin-left: 25px;
+  }
+
+  .menu-item:hover {
+
+    color: #67b54b;
+    font-weight: 600;
   }
   
   .actions {
@@ -145,4 +173,50 @@
   }
   .logo > img {
     height: 100%;
+  }
+
+  .publish {
+    flex:1;
+
+  }
+
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex:1;
+
+  }
+
+  }.publish h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+
+  }.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+  }.publish > form {
+    display: flex;
+    
+  }.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    
+  }
+
+  .imgwork {
+    width: 120px;
+
   }
