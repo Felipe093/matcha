@@ -1,46 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  body {
-    text-align: center;
-    margin: 0;
-    box-sizing: border-box;
+body {
     background-color: #fffbf7;
   }
  
+main{
+  margin-top: 285px;
+  text-align: center;
+}
 
-
-
-
-    h1 {
-            text-align: center;
-            color: #025157;
-            font-family: serif;
-            font-size: 60px;
-            margin-bottom: 24px;
+h1 {
+    text-align: center;
+    color: #025157;
+    font-family: serif;
+    font-size: 60px;
+    margin-bottom: 24px;
             
-            
-        }
+   }
 
-    h4 {
+ h4 {
 
-            text-align: center;
-            font-size: 20px;
-            color: #46484c;
-            font-size: 20px;
-            margin-bottom: 30px;
-        }
+    text-align: center;
+    font-size: 20px;
+    color: #46484c;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+    }
 
         form {
             text-align: center;
             height: 55px;
             margin: 0;
             box-sizing: border-box;
-
-            
-        }
+          }
         
         p{
             text-align: center;
@@ -113,13 +111,19 @@
   
    .section {
 
-    margin-top: 150px;
+    margin-top: 285px;
+    text-align: center;
    } 
 
 
 
   figure.intro > img {
     width:80%;
+    vertical-align: middle;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
     
   }
@@ -188,22 +192,25 @@
 
   }
 
-  }.publish h3 {
+  .publish > h3 {
     font-family: 'Alegreya', serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
 
-  }.publish > p {
+  }
+  .publish > p {
     font-size: 16px;
     color: #343434;
     line-height: 1.5;
     margin-bottom: 20px;
 
-  }.publish > form {
+  }
+  .publish > form {
     display: flex;
     
-  }.publish > form p {
+  }
+  .publish > form p {
     color: #025157;
     margin-right: 18px;
   }
@@ -212,11 +219,67 @@
     display: flex;
     width: 70%;
     margin: 100px auto;
-    align-items: center;
-    
+    align-items: center; 
   }
 
   .imgwork {
     width: 120px;
+  }
 
+  .features {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr); 
+
+  }.features .feature-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+  }.features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+
+  }.features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+
+  }.features .feature-card .feature-content img {
+    width: 50px;
+
+  }.features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+
+  }.features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+
+  }.features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+    
+  }.features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+    transition: right 1s;
+
+  }.features .feature-card .feature-image figure,
+  .features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
   }
